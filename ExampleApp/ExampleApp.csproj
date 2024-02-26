@@ -41,46 +41,8 @@
 	  <CodesignProvision>VS: WildCard Development</CodesignProvision>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
-	  <RunAOTCompilation>False</RunAOTCompilation>
-	  <PublishTrimmed>False</PublishTrimmed>
-	  <DebugSymbols>True</DebugSymbols>
-	  <AndroidPackageFormat>apk</AndroidPackageFormat>
-	  <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-	  <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
-	  <AndroidUseAapt2>True</AndroidUseAapt2>
-	  <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
-	  <AndroidEnableSGenConcurrent>True</AndroidEnableSGenConcurrent>
-	  <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-	  <Optimize>False</Optimize>
-	  <IsPublishable>True</IsPublishable>
-	</PropertyGroup>
-
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
-		<RunAOTCompilation>False</RunAOTCompilation>
-		<PublishTrimmed>False</PublishTrimmed>
-		<DebugSymbols>True</DebugSymbols>
-		<AndroidPackageFormat>apk</AndroidPackageFormat>
-		<AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-		<EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
-		<AndroidUseAapt2>True</AndroidUseAapt2>
-		<AndroidEnableMultiDex>False</AndroidEnableMultiDex>
-		<AndroidEnableSGenConcurrent>True</AndroidEnableSGenConcurrent>
-		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-		<Optimize>False</Optimize>
-		<IsPublishable>True</IsPublishable>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
-	  <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-	  <Optimize>False</Optimize>
-	  <IsPublishable>True</IsPublishable>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-ios|AnyCPU'">
-	  <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-	  <Optimize>False</Optimize>
-	  <IsPublishable>True</IsPublishable>
+		<_MauiForceXamlCForDebug>true</_MauiForceXamlCForDebug>
 	</PropertyGroup>
 
 	<ItemGroup>
