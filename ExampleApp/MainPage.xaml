@@ -17,7 +17,7 @@
                 </AbsoluteLayout.Resources>
                 <Label AbsoluteLayout.LayoutFlags="All"
                        AbsoluteLayout.LayoutBounds="{StaticResource iBreakTheApp}"
-                       Text="My bounds breaks the app in release configuration on Android."/>
+                       Text="My bounds breaks the app at runtime when XamlC is used on Android."/>
             </AbsoluteLayout>
         </VerticalStackLayout>
     </ScrollView>
