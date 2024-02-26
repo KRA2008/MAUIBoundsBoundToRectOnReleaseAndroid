@@ -12,12 +12,12 @@
                             HeightRequest="200">
                 <AbsoluteLayout.Resources>
                     <ResourceDictionary>
-                        <Rect x:Key="someBounds" X="0" Y="1" Width="1" Height="1"/>
+                        <Rect x:Key="iBreakTheApp" X="0" Y="1" Width="1" Height="1"/>
                     </ResourceDictionary>
                 </AbsoluteLayout.Resources>
                 <Label AbsoluteLayout.LayoutFlags="All"
-                       AbsoluteLayout.LayoutBounds="{StaticResource someBounds}"
-                       Text="I break the app in release configuration on Android."/>
+                       AbsoluteLayout.LayoutBounds="{StaticResource iBreakTheApp}"
+                       Text="My bounds breaks the app in release configuration on Android."/>
             </AbsoluteLayout>
         </VerticalStackLayout>
     </ScrollView>
